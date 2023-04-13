@@ -8,9 +8,7 @@ const routes: RouteRecordRaw[] = [
       { path: '', component: () => import('src/pages/VueEcharts.vue') }, 
       { path: '/quasarTree', component: () => import('pages/IndexPage.vue') },
       { path: '/vueOrgChart', component: () => import('pages/VueOrgChart.vue') },
-      { path: '/vOrgTree', component: () => import('pages/VOrgTree.vue') },
-      { path: '/vueTreeChart', component: () => import('pages/VueTreeChart.vue') },
-    ],
+      { path: '/vOrgTree', component: () => import('pages/VOrgTree.vue') }    ],
   },
 
   // Always leave this as last one,
